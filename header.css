@@ -1,0 +1,100 @@
+.header{
+  height:55px ;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  position:fixed;
+  height: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width:1px ;
+  border-bottom-style: solid;
+  border-bottom-color:rgb(240, 240, 240) ;
+  z-index: 100;
+}
+.left-section{
+  display: flex;
+  align-items: center;
+}
+.cypress-logo{
+width: 100px;
+}
+.tab-bar{
+  height: 24px;
+  margin: 24px;
+  cursor: pointer;
+}
+.middle-section{
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 30px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+.search-bar{
+  flex: 1;
+  height: 36px;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 530;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192,192,192);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.15);
+  width: 0;
+
+}
+.search-bar::placeholder{
+  font-family: 'Roboto Serif', serif;
+  font-size: 16px;
+}
+.search-button{
+  height: 36px; 
+  width: 72px;
+  background-color: rgb(240,240,240);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192,192,192);
+  margin-left: -1px;
+  margin-right: 10px;
+}
+.search-button-icon{
+  height: 25px;
+}
+.voice-button{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(240,240,240);
+}
+.voice-button-icon{
+  height: 24px;
+  margin-top: 4px;
+ 
+}
+.right-section{
+  margin-right: 20px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.upload-icon{
+  height: 32px;
+}
+.apps-icon{
+  height: 32px;
+}
+.notifications-icon{
+  height: 32px;
+}
+.logo-icon{
+  height:32px;
+  border-radius: 16px;
+}
